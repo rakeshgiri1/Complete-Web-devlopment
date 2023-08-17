@@ -1,0 +1,9 @@
+.container {
+    background-color: blue;
+    border: 3px solid green;
+    padding: 8px;
+  text-align: center;
+  margin: 34px ,19;
+    width: 533px;
+    height: 200px;
+}

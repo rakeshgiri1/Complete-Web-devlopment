@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0,0,0,0.5); */
+    background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+section {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-between;
+    font-size: 23px;
+
+}
+
+li {
+    list-style: none;
+    padding: 34px 23px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    /* font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px; */
+}
+
+p {
+    font-size: 1.5rem; 
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+footer{
+    text-align: center;
+    padding: 0px;
+    margin: 100px 100px;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items:center; */
+    margin: 50px 0px;
+    padding: 0px;
+    color: white;
+    
+}
+.form input{
+    margin: 5px 5px;
+    padding: 5px 0px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.botton{
+    font-size: bold;
+    display: flex;
+}

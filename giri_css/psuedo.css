@@ -1,0 +1,45 @@
+
+.container {
+  border: 2px solid rgb(93, 146, 125);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px ,auto;
+    width: 50%;
+    background-color: rgb(93, 146, 125);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    /* box-shadow: 5px 5px 5px 5px rgb(93, 146, 125); */
+    
+
+}
+.btn{
+    background-color: rgb(35, 21, 233);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 5px;
+
+    
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:black;
+}
+a:visited{
+    color: yellow;
+}
+a:active{
+    color: rgb(35, 21, 233);
+}
+.btn:hover{
+    background-color: rgb(26, 26, 30);
+    color: white;
+}

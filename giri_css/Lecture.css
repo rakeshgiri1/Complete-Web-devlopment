@@ -1,0 +1,19 @@
+ p{
+ color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(53, 109, 109);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 5px 5px 10px black;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
